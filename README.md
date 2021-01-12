@@ -20,7 +20,7 @@ Good morning! Morgenbot is a [Slack](https://slack.com/) standup bot. ☕
    - `USERNAME`: your bot's username. (optional; defaults to `'morgenbot'`)
    - `ICON_EMOJI`: the emoji used in the bot's icon. (optional; defaults to `':coffee:'`)
    - `CHANNEL`: the channel in which you stand up. (optional; defaults to `'#standup'`)
-   - `IGNORE_USERS`: a string representing a comma-separated array of strings representing active channel users who never stand up. (eg `'["username1", "username2"]'`; optional; defaults to `''`)
+   - `IGNORE_USERS`: a string representing a comma-separated array of strings representing active channel users who never stand up. (eg `'username1,username2'`; optional; defaults to `''`)
    - `INIT_GREETING`: the way Morgenbot greets you when a standup is initialized. (optional; defaults to `'Good morning'`)
    - `START_MESSAGE`: the instructions Morgenbot issues when a standup starts. (optional; defaults to `'What did you work on yesterday? What are you working on today? What, if any, are your blockers?'`)
    - `GIPHY`: a string representing a boolean of whether you want to use Giphy on queries Morgenbot doesn't understand. (optional; defaults to `FALSE`)
